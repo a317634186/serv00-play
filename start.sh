@@ -3144,7 +3144,7 @@ EOF
 
 vip_statement() {
   statement=$1
-  echo "此功能为会员尊享功能，欢迎加入饭奇骏频道会员: https://www.youtube.com/channel/UCjS3UKSmQ2mvsThXhJIFobA/join  "
+  echo "此功能为会员尊享功能，欢迎加入饭奇骏频道会员: https://www.youtube.com  "
   $statement
   read -p "你是否会员? [y/n] [n]:" input
   input=${input:-n}
@@ -3173,8 +3173,7 @@ showMenu() {
   art_wrod=$(figlet "serv00-play")
   echo "<------------------------------------------------------------------>"
   echo -e "${CYAN}${art_wrod}${RESET}"
-  echo -e "${GREEN} 饭奇骏频道:https://www.youtube.com/@frankiejun8965 ${RESET}"
-  echo -e "${GREEN} TG交流群:https://t.me/fanyousuiqun ${RESET}"
+  echo -e "${GREEN} 饭奇骏频道:https://www.youtube.com/ ${RESET}"
   echo -e "${GREEN} 当前版本号:$(getCurrentVer) 最新版本号:$(getLatestVer) ${RESET}"
   echo "<------------------------------------------------------------------>"
   echo "请选择一个选项:"
